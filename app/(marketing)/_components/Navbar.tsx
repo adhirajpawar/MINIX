@@ -46,7 +46,9 @@ export const Navbar = () => {
                             Enter Notion
                         </Link>
                     </Button>
-                    <UserButton />
+                    <UserButton
+                     afterSignOutUrl="/"
+                    />
                 </>
                )}
                 <ModeToggle />
