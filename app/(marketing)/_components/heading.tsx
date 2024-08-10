@@ -1,9 +1,11 @@
 "use client";
 
-import { ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { useAuth } from "@clerk/clerk-react";
 import { useConvexAuth } from "convex/react";
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
+
+import { Button } from "@/components/ui/button";
+import { SignInButton, useAuth } from "@clerk/clerk-react";
 import { Spinner } from "@/components/spinner";
 
 export const Heading = () => {
@@ -25,9 +27,20 @@ export const Heading = () => {
                 </div>
             )}
             {isAuthenticated && !isLoading && (
-            <Button>Enter Notion
+            <Button asChild>
+                <Link href="/documents">
+                Enter Notion
                 <ArrowRight className="h-4 w-4 ml-2" />
+                </Link>
             </Button>
+            )}
+            {!isAuthenticated && !isLoading && (
+                <SignInButton mode="modal">
+                    <Button>
+                        Get Notion free
+                        <ArrowRight className="h-4 w-4 ml-2"/>
+                    </Button>
+                </SignInButton>
             )}
         </div>
     )
