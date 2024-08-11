@@ -65,7 +65,7 @@ export const UserItem = () => {
                     Log out
                 </SignOutButton>
             </DropdownMenuItem>
-        </DropdownMenuContent>
+        </DropdownMenuContent>  
        </DropdownMenu>
     )
 }
