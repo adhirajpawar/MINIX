@@ -1,5 +1,26 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# MINIX
+
+A fully responsive and intuitive web application for note-taking, task management, and project collaboration. MINIX offers a user-friendly interface with flexible features that allow users to organize their work and personal projects seamlessly.
+![MINIX Home Screen](https://github.com/user-attachments/assets/dea74b9d-02be-48ed-8f87-0f1ce0e8f3a8)
+
+![Screenshot (5)](https://github.com/user-attachments/assets/92727fa5-3f72-4906-a4a4-844bcf80b92e)
+
+![Screenshot (6)](https://github.com/user-attachments/assets/0ce5e6ef-5d46-4d63-a4cc-8c140ee21cc8)
+
+---
+
+## 🚀 Features
+
+- **Note-taking:** Create, edit, and organize notes efficiently.
+- **Task Management:** Manage tasks with checklists, deadlines, and priority levels.
+- **Project Collaboration:** Share notes and collaborate in real time.
+- **Customizable Layouts:** Create unique views for your projects using lists, grids, and calendars.
+- **Responsive Design:** Fully optimized for all screen sizes—desktop, tablet, and mobile.
+
+---
+
 ## Getting Started
 
 First, run the development server:
