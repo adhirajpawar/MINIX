@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 # MINIX
+## Multi-functional Interface for Notes, Ideation, and Xcollaboration
 
 A fully responsive and intuitive web application for note-taking, task management, and project collaboration. MINIX offers a user-friendly interface with flexible features that allow users to organize their work and personal projects seamlessly.
 ![MINIX Home Screen](https://github.com/user-attachments/assets/dea74b9d-02be-48ed-8f87-0f1ce0e8f3a8)
